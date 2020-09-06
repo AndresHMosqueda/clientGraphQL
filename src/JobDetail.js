@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { jobs } from './fake-data';
 import { fetchPost } from './requests';
 
 export class JobDetail extends Component {
